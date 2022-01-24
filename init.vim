@@ -1,7 +1,7 @@
-" seteando tecla 'líder':
+" Asignando tecla líder
 let g:mapleader = ' '
 
-" Configuración básica:
+" Configuración básica 
 set title
 syntax enable
 set encoding=utf-8
@@ -24,7 +24,7 @@ call plug#begin('~/.config/nvim/plugged')
 	
 call plug#end()
 
-" configurando tema principal
+" Asignando tema
 colorscheme gruvbox
 
 " Mapeo de teclas:
