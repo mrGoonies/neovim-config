@@ -16,10 +16,10 @@ let g:mapleader = ' '
 
 " Manejador de Pluggins (Plug)
 call plug#begin()
-        Plug 'morhetz/gruvbox'
-        Plug 'vim-airline/vim-airline'
+  Plug 'morhetz/gruvbox'
+  Plug 'vim-airline/vim-airline'
   Plug 'preservim/nerdtree'
-        Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " Tema
